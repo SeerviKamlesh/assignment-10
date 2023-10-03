@@ -1,0 +1,89 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+body{
+    background-color: rgb(171, 183, 198); 
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;align-items: center;
+    position: sticky;
+    top: 0;
+}
+.nav a:hover{
+ background-color: white;
+ color: black;
+ padding: 5px;
+ border-radius: 15px;
+}
+.main{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(112, 101, 72);
+    color: white;
+    
+}
+
+.contact{
+    width: 100%;
+    min-height: 200px;
+    border-top: 1px solid white;
+    background-color: rgb(33, 33, 72);
+    /* position:sticky;
+    bottom: 0; */
+    padding-bottom: 20px;
+}
+.icon{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 350px;
+}
+.icon a{
+    color: gray;
+}
+.icon a:hover{
+    color: white;
+}
+.mail{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    align-items: center;
+  }
+.mail>a{
+    color:gray;
+    text-decoration: none;
+}
+.mail>a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.git {
+    display: flex;
+    margin-top: 20px;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    margin: 2px;
+}
+.home{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    line-height: 28px;
+    text-align: center;
+     
+    
+}
